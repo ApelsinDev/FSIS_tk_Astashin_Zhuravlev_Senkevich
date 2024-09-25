@@ -2,7 +2,7 @@ import numpy as np
 from itertools import combinations
 
 
-# Задание 1.1: Функция приведения матрицы к ступенчатому виду (REF)
+# Задание 1.1: Функция приведения матрицы к ступенчатому виду(REF)
 def ref(matrix):
     mat = np.array(matrix)
     n_rows, n_cols = mat.shape
